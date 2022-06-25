@@ -283,6 +283,48 @@ footer{
     font-weight: 200;
 }
 
+/*Pagina productos*/
+
+.page-nav{
+    border: 1px solid black;
+    background-color: rgb(0, 140, 255);
+}
+
+.page-nav h1 {
+    margin: 20px;
+}
+
+.page-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 1px solid rgb(255, 0, 0);
+}
+
+.product-container {
+    margin: 15px;
+    padding: 2px 16px;
+}
+
+.product-container:hover{
+    box-shadow: 0 8px 16px 0 black;
+}
+
+.product-container img {
+    width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
