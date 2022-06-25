@@ -152,13 +152,20 @@ button:hover{
 
 #somos-4s h2{
     color: darkcyan;
-
+    padding: 20px;
+    margin: 20px;
+    font-size: 2.5em;
 }
 
 #somos-4s .container{
     text-align: center;
     padding: 200px 12px;
 }
+
+#somos-4s .container .texto {
+    text-align: center;
+}
+
 
 #nuestros-trabajos{
     background-color: rgb(255, 196, 0);
@@ -182,6 +189,13 @@ button:hover{
     margin: 20px;
     border-radius: 15px;
 }
+
+#nuestros-trabajos .carta:hover{
+    background-image: none;
+    background-color: rgb(49, 49, 49);
+    transform: scale(1.1);
+}
+
 
 .carta:first-child{
     background-image: url("multimedia/Marquesina\ degrade.jpg");
@@ -247,7 +261,7 @@ footer{
 }
 
 .socials a:hover {
-    color: darkgoldenrod;
+    color: gold;
 }
 
 .footer-bottom{
