@@ -329,6 +329,21 @@ footer{
     color: gold;
   }
 
+.formulario {
+    background-color: gold;
+}
+
+
+  .container-contacto {
+    max-width: 500px;
+    margin: auto;
+    padding: 100px 16px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+
+
 
 @media (min-width:720px){
 
