@@ -342,7 +342,23 @@ footer{
     border-radius: 5px;
 }
 
+.header .btn-contacto button{
+    font-weight: 700;
+    color: teal;
+    padding: 9px 25px;
+    background: gold;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
 
+
+.header .btn-contacto button:hover{
+    background-color: rgb(179, 152, 2);
+    color: white;
+    transform: scale(1.2);
+}
 
 
 @media (min-width:720px){
