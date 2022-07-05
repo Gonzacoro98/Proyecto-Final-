@@ -116,7 +116,7 @@ button:hover{
     text-align: center;
     flex-direction: column;
     height: 100vh;
-    background-image: url("multimedia/hero1\ degrade.jpg");
+    background-image: url("../multimedia/hero1\ degrade.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -220,16 +220,16 @@ button:hover{
 
 
 .carta:first-child{
-    background-image: url("multimedia/Marquesina\ degrade.jpg");
+    background-image: url("../multimedia/Marquesina\ degrade.jpg");
 }
 
 .carta:nth-child(2){
-    background-image: url("multimedia/ploteo\ vehicular\ degrade.jpg");
+    background-image: url("../multimedia/ploteo\ vehicular\ degrade.jpg");
 
 }
 
 .carta:nth-child(3){
-    background-image: url("multimedia/Corporeo\ de\ neon\ degrade.jpg");
+    background-image: url("../multimedia/Corporeo\ de\ neon\ degrade.jpg");
 }
 
 footer{
@@ -415,7 +415,7 @@ footer{
     }
      
     #somos-4s .img-container{
-        background-image: url("multimedia/somos-4s.jpg");
+        background-image: url("../multimedia/somos-4s.jpg");
         box-shadow: 2px 2px 10px black;
         background-size: cover;
         background-position: center center;
