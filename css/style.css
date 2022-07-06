@@ -377,8 +377,7 @@ footer{
 
 .header .btn-contacto button:hover{
     background-color: rgb(179, 152, 2);
-    color: white;
-    transform: scale(1.2);
+    color: white;    transform: scale(1.2);
 }
 
 
