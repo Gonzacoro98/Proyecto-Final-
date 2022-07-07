@@ -212,6 +212,11 @@ button:hover{
     border-radius: 15px;
 }
 
+#nuestros-trabajos .carta a {
+    color: white;
+    text-decoration: none;
+}
+
 #nuestros-trabajos .carta:hover{
     background-image: none;
     background-color: rgb(49, 49, 49);
