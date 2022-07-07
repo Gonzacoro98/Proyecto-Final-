@@ -1,0 +1,31 @@
+.row {
+    display: flex;
+    align-items: center;
+    .col{
+        width: 50%;
+    }
+    .col-30{
+     width: 30%;
+    }
+    .col-70{
+     width: 70%;
+    }
+}
+
+.m-auto{
+    margin: 0 auto;
+}
+
+@for $i from 1 to $limit{
+    .m-#{$i}{
+        margin: $i * $unit;
+    }
+
+    .p-#{$i}{
+        padding: $i * $unit;
+    }
+
+    .py-#{$i}{
+        padding: $i * $unit 0;
+    }
+}

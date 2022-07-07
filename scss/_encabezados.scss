@@ -1,0 +1,22 @@
+$primary-color: gold;
+$secundary-color: darkcyan;
+$terciary-color: black;
+$font-color: white;
+$borde: solid 1px black;
+$box-shadow: 0 2px 10px 0 rgba(0,0,0,0.6);
+$limit: 10;
+$unit: 8px;
+
+@function size($value) {
+    @return $value * $unit
+}
+
+h2 {
+    font-weight: bolder;
+    font-size: size(6);
+}
+
+h3 {
+    font-weight: lighter;
+    font-size: size(3);
+}
