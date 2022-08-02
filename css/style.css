@@ -116,10 +116,23 @@ button:hover{
     border-radius: 5px;
 }
 
+/*------------Pagina trabajos---------------*/
+
+
+
 #nuestros-trabajos{
     background-color: rgb(255, 196, 0);
     color: rgb(255, 255, 255);
     text-align: center;
+}
+
+#nuestros-trabajos h1 {
+    background-color: darkcyan;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gold;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid black;
 }
 
 #nuestros-trabajos .container{
@@ -163,6 +176,60 @@ button:hover{
 .carta:nth-child(3){
     background-image: url("../multimedia/Corporeo\ de\ neon\ degrade.jpg");
 }
+
+/* ----------------- Pagina productos --------------------*/
+
+.fondo-tienda {
+    background-color: gold;
+}
+
+.page-nav{
+    border: 1px solid black;
+    background-color: darkcyan;
+}
+
+.page-nav h1 {
+    color: gold;
+    margin: 20px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.page-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.product-container {
+    margin: 15px;
+    padding: 2px 16px;
+    transition: all 0.2s;
+    position: relative;
+}
+
+.product-container:hover{
+    box-shadow: 0 8px 16px 0 black;
+    transform: scale(1.1);
+    background-color: rgb(209, 178, 0);
+    border-radius: 25px;
+}
+
+.product-container img {
+    width: 300px;
+}
+
+.tienda button {
+    transition-duration: 0.4s;
+  }
+  
+  .tienda button:hover {
+    background-color: rgb(0, 80, 80);
+    color: gold;
+  }
+
+  /* ---------------  Footer -------------------*/
 
 footer{
     background-color: darkcyan;
@@ -242,55 +309,6 @@ footer{
     font-weight: 200;
 }
 
-/*Pagina productos*/
-
-.fondo-tienda {
-    background-color: gold;
-}
-
-.page-nav{
-    border: 1px solid black;
-    background-color: darkcyan;
-}
-
-.page-nav h1 {
-    margin: 20px;
-    text-align: center;
-}
-
-
-.page-content{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.product-container {
-    margin: 15px;
-    padding: 2px 16px;
-    transition: all 0.2s;
-    position: relative;
-}
-
-.product-container:hover{
-    box-shadow: 0 8px 16px 0 black;
-    transform: scale(1.1);
-    background-color: rgb(209, 178, 0);
-    border-radius: 25px;
-}
-
-.product-container img {
-    width: 300px;
-}
-
-.tienda button {
-    transition-duration: 0.4s;
-  }
-  
-  .tienda button:hover {
-    background-color: rgb(0, 80, 80);
-    color: gold;
-  }
 
 .formulario {
     background-color: gold;
