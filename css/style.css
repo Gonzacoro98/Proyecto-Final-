@@ -244,6 +244,10 @@ footer{
 
 /*Pagina productos*/
 
+.fondo-tienda {
+    background-color: gold;
+}
+
 .page-nav{
     border: 1px solid black;
     background-color: darkcyan;
@@ -317,6 +321,8 @@ footer{
     background-color: rgb(179, 152, 2);
     color: white;    transform: scale(1.2);
 }
+
+
 
 
 @media (min-width:720px){
